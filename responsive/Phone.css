@@ -1,0 +1,79 @@
+html{
+    font-size: 50%;
+    background-color: #000;
+}
+Nav{
+    display: none;
+}
+#NavPhone23{
+    display: block !important;
+}
+
+#SEC-1 {
+    height: 582px;
+}
+#container {
+    height: 582px;
+}
+
+
+
+#container-2 {
+   flex-wrap: wrap;
+   gap: 0px;
+}
+#IMG-box{
+    width: clamp(250px,81vw,307px);
+    height: clamp(300px,60vh,403px);
+    background-size: contain;
+}
+#Text-box {
+    height: 308px;
+}
+
+#SEC-3 {
+    height: 520px;
+}
+#container-3 {
+    align-items: initial;
+    height: 520px;
+}
+.Para-3 {
+    text-align: center;
+}
+
+.Para-6 {
+    margin-top: 13px;
+}
+
+
+#SEC-4 {
+    height: 487px;
+}
+#container-4 {
+    height: 487px;
+}
+#C1 {
+    width: 355px;
+    height: 132px !important;
+    background-color: rgb(120, 120, 120);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+#C2 {
+    width: 355px;
+    height: 132px !important;
+    background-color: rgb(120, 120, 120);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+#C3 {
+    width: 355px;
+    height: 132px !important;
+    background-color: rgb(120, 120, 120);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.ShoW {
+    display: block !important;
+}

@@ -1,0 +1,292 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+Nav {
+    position: relative;
+    width: clamp(300px, 100%, 100%);
+    height: clamp(71px, 10vh, 71px);
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Nav-1 {
+    width: clamp(233px, 15vw, 233px);
+    height: 65px;
+}
+
+#H-TOP {
+    text-align: center;
+    font-family: var(--font);
+}
+
+#Nav-2 {
+    width: clamp(300px, 30vw, 464px);
+    height: 65px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#Nav-2 a {
+    text-decoration: none;
+    color: #fff;
+    font-family: var(--font);
+    font-size: 15px;
+
+}
+
+/* Nav End Here */
+
+/* SEC-1 */
+#SEC-1 {
+    width: clamp(300px, 100%, 100%);
+    height: clamp(300px, 100vh, 715px);
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    width: clamp(300px, 100%, 1519px);
+    height: clamp(300px, 100vh, 715px);
+    display: flex;
+    justify-content: center;
+}
+
+#Contain {
+    width: 60vw;
+    height: 40vh;
+    margin-top: 100px;
+}
+
+.P-basic {
+    font-size: 3rem;
+    color: #fff;
+    margin: auto;
+}
+
+#BIO-top {
+    display: inline-block;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    font-family: var(--font);
+}
+
+/* SEC-2 */
+#SEC-2 {
+    width: clamp(300px, 100%, 100%);
+    height: clamp(300px, 101vh, 722px);
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-2 {
+    width: clamp(300px, 100%, 1519px);
+    height: clamp(300px, 101vh, 722px);
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: rgb(0, 0, 0);
+}
+
+#IMG-box {
+    width: clamp(300px, 40vw, 614px);
+    height: clamp(300px, 100vh, 715px);
+    border: 2px solid black;
+    background-image: url(Wallpaper/CoverPhone.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#Text-box {
+    width: clamp(300px, 30vw, 460px);
+    height: clamp(300px, 100vh, 715px);
+    color: #fff;
+    border: 2px solid black;
+}
+
+#Text-box p {
+    font-size: 1.7rem;
+}
+
+#BIO-SEC-2 {
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    font-size: 1rem;
+}
+
+.B-D {
+    font-size: 1rem;
+}
+
+/* SEC-3 */
+#SEC-3 {
+    width: clamp(300px, 100%, 100%);
+    height: clamp(300px, 90vh, 643px);
+    /* background-color: #861b1b; */
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-3 {
+    width: clamp(300px, 89vw, 1367px);
+    height: clamp(300px, 81vh, 579px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.Para-3 {
+    font-size: 2rem;
+    color: #fff;
+    width: clamp(300px, 88%, 1202px)
+}
+
+/*SEC-4*/
+#SEC-4 {
+    width: clamp(300px, 100%, 100%);
+    height: clamp(300px, 64vh, 457px);
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-4 {
+    width: clamp(300px, 100%, 1519px);
+    height: clamp(300px, 64vh, 457px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgb(0, 0, 0);
+}
+
+#C1 {
+    width: 80%;
+    height: 10vh;
+    background-color: rgb(120, 120, 120);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+#C2 {
+    width: 80%;
+    height: 10vh;
+    background-color: rgb(120, 120, 120);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+#C3 {
+    width: 80%;
+    height: 10vh;
+    background-color: rgb(120, 120, 120);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.C-Headline {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: #000000;
+}
+
+#Para-C1 {
+    font-size: 1.6rem;
+    text-align: center;
+    width: clamp(300px, 60vw, 961px);
+    margin: auto;
+    color: #000;
+    display: none;
+}
+
+#Para-C2 {
+    font-size: 1.6rem;
+    text-align: center;
+    width: clamp(300px, 60vw, 961px);
+    margin: auto;
+    color: #000;
+    display: none;
+}
+
+#Para-C3 {
+    font-size: 1.6rem;
+    text-align: center;
+    width: clamp(300px, 60vw, 961px);
+    margin: auto;
+    color: #000;
+    display: none;
+}
+
+.Add_Height {
+    height: 30vh !important;
+    width: 80vw;
+}
+
+.Show_Para {
+    display: block !important;
+}
+
+/* SEC-5 */
+#SEC-5 {
+    width: clamp(300px, 100%, 100%);
+    height: clamp(300px, 100vh, 715px);
+    /* background-color: #861b1b; */
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-5 {
+    width: clamp(300px, 89vw, 1367px);
+    height: clamp(300px, 100vh, 679px);
+    background-image: url(Wallpaper/C2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* SEC-6 */
+#SEC-6{
+    width: clamp(300px, 100%, 100%);
+    height: clamp(100px,20vh,143px);
+    background-color: rgb(0, 0, 0);
+}
+#container-6{
+    width: clamp(300px, 100%, 100%);
+    height: clamp(100px,20vh,143px);
+    background-color: rgb(0, 0, 0);
+}
+.Para-6{
+    font-size: 1.6rem;
+    text-align: center;
+    width: clamp(300px, 60vw, 961px);
+    margin: auto;
+    color: #ffffff;
+}
